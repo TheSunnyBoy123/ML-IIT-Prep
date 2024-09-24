@@ -7,6 +7,13 @@ Too many parameters in large models:
     - Store, load and train task-specific parameters
     - Boosts operational efficiency
     - Introduces inference latency due to:
-        - Model depth extended
+        - Model depth extension
         - Model's usable sequence length reduced
-    
+
+LoRA decomposes parameter matrices to a very low rank for fine tuning giving  
+1. Storage Efficiency
+2. Computational Efficiency (~12k rank decomposed to 1-2 rank for GPT3)  
+
+### Terminologies and Conventions
+---
+ 
