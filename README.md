@@ -38,7 +38,10 @@ $r$: Rank of LoRA Module
 
 LoRA can be applied to any dense layer in a neural network, the paper focuses on the application on the self-attention layer.
 
-[Additional Material for attention layers in LLM](https://medium.com/@geetkal67/attention-networks-a-simple-way-to-understand-self-attention-f5fb363c736d)
+
+#### Some Relevant Materials
+- [Additional Material for attention layers in LLM](https://medium.com/@geetkal67/attention-networks-a-simple-way-to-understand-self-attention-f5fb363c736d)  
+- [Github for memory layer](https://github.com/mem0ai/mem0)
 
 ### 4.1 Targeting Layers
 In transformer layers, LoRA modifies the following weight matrices:
